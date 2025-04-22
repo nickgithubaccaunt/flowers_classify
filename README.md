@@ -124,8 +124,8 @@ http://localhost:8501
 
 ## Развернутые сервисы
 
-- **API**: [https://flower-classification-api.onrender.com](https://flower-classification-api.onrender.com)
-- **Веб-интерфейс**: [https://flower-classification.streamlit.app](https://flower-classification.streamlit.app)
+- **API**: [https://classify-flowers.onrender.com](https://classify-flowers.onrender.com)
+- **Веб-интерфейс**: [https://flowerrecognition-9xrul2mjfbumvzcbtgjaci.streamlit.app/](https://flowerrecognition-9xrul2mjfbumvzcbtgjaci.streamlit.app/)
 
 ## Примеры использования API
 
@@ -162,7 +162,3 @@ curl -X POST -F "file=@test_flower.jpg" https://flower-classification-api.onrend
   "inference_time_ms": 15.4
 }
 ```
-
-## Лицензия
-
-Проект распространяется под лицензией MIT. Полный текст лицензии доступен в файле [LICENSE](LICENSE).
